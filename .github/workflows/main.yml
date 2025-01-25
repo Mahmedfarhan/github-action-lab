@@ -1,0 +1,22 @@
+#  Define a Simple Workflow with a Trigger
+
+name: Simple GitHub Actions Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+# Add a Step to Check Out the Repository Code
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+# Add a Step to Run a Basic Message
+
+      - name: Print a message
+        run: echo "Hello, GitHub Actions!"

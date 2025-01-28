@@ -14,7 +14,7 @@ In this lab assignment, the primary objective is to familiarize users with GutHu
 
 2. Code Editor
 
--In order to edit code, download any software such as Visual Studio Code or any other txt editor tool which best suits.
+- In order to edit code, download any software such as Visual Studio Code or any other txt editor tool which best suits.
 
 3. A GitHub Repository
 

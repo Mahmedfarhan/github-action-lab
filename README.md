@@ -63,8 +63,8 @@ touch main.yml
 8. Add Workflow Steps
 
 The Workflow consists of two key steps:
-- ** Checkout Repository Code: ** This is done using `actions/checkout@v3`, which retrieved the repository's latest state.
-- ** Execute a Basic Command: ** A command `echo "Hello, GitGub Actions!"` is run in the workflow environment to print a message in the logs.
+- **Checkout Repository Code:** This is done using `actions/checkout@v3`, which retrieved the repository's latest state.
+- **Execute a Basic Command:** A command `echo "Hello, GitGub Actions!"` is run in the workflow environment to print a message in the logs.
 
 9. Full Command for the workflow
 
